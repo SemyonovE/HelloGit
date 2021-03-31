@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2980170D2614BBA200971AD8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2980170C2614BBA200971AD8 /* main.swift */; };
+		298017182614D18000971AD8 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298017162614D18000971AD8 /* Button.swift */; };
+		298017192614D18000971AD8 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298017172614D18000971AD8 /* Label.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		298017092614BBA200971AD8 /* HelloGit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HelloGit; sourceTree = BUILT_PRODUCTS_DIR; };
 		2980170C2614BBA200971AD8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		298017162614D18000971AD8 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		298017172614D18000971AD8 /* Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +62,18 @@
 			isa = PBXGroup;
 			children = (
 				2980170C2614BBA200971AD8 /* main.swift */,
+				298017152614D17000971AD8 /* Components */,
 			);
 			path = HelloGit;
+			sourceTree = "<group>";
+		};
+		298017152614D17000971AD8 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				298017162614D18000971AD8 /* Button.swift */,
+				298017172614D18000971AD8 /* Label.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +134,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2980170D2614BBA200971AD8 /* main.swift in Sources */,
+				298017182614D18000971AD8 /* Button.swift in Sources */,
+				298017192614D18000971AD8 /* Label.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
