@@ -12,8 +12,10 @@ class OnboardingScreen: Screen {
     private let titleLabel = Label(title: "Welcome my app")
     private let subtitleLabel = Label(title: "This app will help you to learn git",
                                       textColor: "light-gray")
+    private let secondSubtitleLabel = Label(title: "And you can read news!:)",
+                                            textColor: "light-gray")
     private let launchButton = Button(title: "Launch",
-                                      backgroundColor: "green")
+                                      backgroundColor: "blue")
     
     private var onLaunchButton: (Button) -> Void
     var mainScreen: Screen?
