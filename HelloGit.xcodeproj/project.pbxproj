@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29763D14261840B300322122 /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29763D13261840B300322122 /* Screen.swift */; };
 		2980170D2614BBA200971AD8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2980170C2614BBA200971AD8 /* main.swift */; };
 		298017182614D18000971AD8 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298017162614D18000971AD8 /* Button.swift */; };
 		298017192614D18000971AD8 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298017172614D18000971AD8 /* Label.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		29763D13261840B300322122 /* Screen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
 		298017092614BBA200971AD8 /* HelloGit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HelloGit; sourceTree = BUILT_PRODUCTS_DIR; };
 		2980170C2614BBA200971AD8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		298017162614D18000971AD8 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
@@ -42,6 +44,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29763D12261840A100322122 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				29763D13261840B300322122 /* Screen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
 		298017002614BBA200971AD8 = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +73,7 @@
 			children = (
 				2980170C2614BBA200971AD8 /* main.swift */,
 				298017152614D17000971AD8 /* Components */,
+				29763D12261840A100322122 /* Screens */,
 			);
 			path = HelloGit;
 			sourceTree = "<group>";
@@ -136,6 +147,7 @@
 				2980170D2614BBA200971AD8 /* main.swift in Sources */,
 				298017182614D18000971AD8 /* Button.swift in Sources */,
 				298017192614D18000971AD8 /* Label.swift in Sources */,
+				29763D14261840B300322122 /* Screen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
