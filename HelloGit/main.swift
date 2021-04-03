@@ -20,3 +20,7 @@ guard let onboardingLaunchButton = onboardingLaunchButton else {
 
 print("USER TOUCHES NEXT BUTTON")
 onboardingLaunchButton.touch()
+
+guard let main: Screen = onboarding.mainScreen else {
+    fatalError("Main doesn't exist")
+}

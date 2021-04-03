@@ -27,9 +27,11 @@ class OnboardingScreen: Screen {
     override func didLoad() {
         super.didLoad()
         
-        launchButton.addAction {
-            // TODO: Launch main screen
-        }
+launchButton.addAction {
+    [weak self] in
+    
+    self?.mainScreen = Main(title: "Main")
+}
     }
     
     override func didShow() {
