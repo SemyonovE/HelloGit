@@ -21,9 +21,8 @@ struct NewsModel: CustomStringConvertible {
         --------------------------
         \(text)
 
-        \(author)
+        Автор: \(author)
 
-        --------------------------
 
         """
     }
