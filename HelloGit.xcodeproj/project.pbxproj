@@ -10,6 +10,7 @@
 		293D97AD26186C1A00D7AB08 /* NewsLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293D97AB26186C1A00D7AB08 /* NewsLoader.swift */; };
 		293D97AE26186C1A00D7AB08 /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293D97AC26186C1A00D7AB08 /* NewsModel.swift */; };
 		29763D14261840B300322122 /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29763D13261840B300322122 /* Screen.swift */; };
+		29763D172618426600322122 /* OnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29763D162618426600322122 /* OnboardingScreen.swift */; };
 		29763D1F2618535700322122 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29763D1E2618535700322122 /* Main.swift */; };
 		2980170D2614BBA200971AD8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2980170C2614BBA200971AD8 /* main.swift */; };
 		298017182614D18000971AD8 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298017162614D18000971AD8 /* Button.swift */; };
@@ -32,6 +33,7 @@
 		293D97AB26186C1A00D7AB08 /* NewsLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsLoader.swift; sourceTree = "<group>"; };
 		293D97AC26186C1A00D7AB08 /* NewsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
 		29763D13261840B300322122 /* Screen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
+		29763D162618426600322122 /* OnboardingScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingScreen.swift; sourceTree = "<group>"; };
 		29763D1E2618535700322122 /* Main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		298017092614BBA200971AD8 /* HelloGit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HelloGit; sourceTree = BUILT_PRODUCTS_DIR; };
 		2980170C2614BBA200971AD8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				29763D13261840B300322122 /* Screen.swift */,
+				29763D162618426600322122 /* OnboardingScreen.swift */,
 				29763D1E2618535700322122 /* Main.swift */,
 			);
 			path = Screens;
@@ -162,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				293D97AE26186C1A00D7AB08 /* NewsModel.swift in Sources */,
+				29763D172618426600322122 /* OnboardingScreen.swift in Sources */,
 				29763D1F2618535700322122 /* Main.swift in Sources */,
 				2980170D2614BBA200971AD8 /* main.swift in Sources */,
 				298017182614D18000971AD8 /* Button.swift in Sources */,
