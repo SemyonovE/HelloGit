@@ -15,6 +15,8 @@ class Main: Screen {
         super.didShow()
         
         print("Loading news")
-        // TODO: Load news
+        NewsLoader.load()
+            .sorted { $0.date < $1.date }
+            .forEach { print($0) }
     }
 }
