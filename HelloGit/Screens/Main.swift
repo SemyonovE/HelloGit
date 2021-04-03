@@ -9,7 +9,7 @@ import Foundation
 
 class Main: Screen {
     
-    private let titleLabel = Label(title: "Hello Git App")
+    private let titleLabel = Label(title: "Hello Git App2")
     
     override func didShow() {
         super.didShow()
